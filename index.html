@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfghanTravelGuide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+      <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- ============= SUB-HEADER =================== -->
+  <div class="sub-header">
+    <div class="left">
+      <img src="img/logo/site-logo.png" alt="Logo" class="logo">
+      <h3 class="tagline">Discover Afghanistan Like Never Before</h3>
+    </div>
+
+    <div class="right">
+      <div class="contact-icons">
+        <!-- Email -->
+        <div class="contact-item">
+          <a href="mailto:afghantravelguide@gmail.com" class="icon email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <div class="contact-info">
+            <div class="label">Email</div>
+            <div class="info">afghantravelguide@gmail.com</div>
+          </div>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="contact-item">
+          <a href="https://wa.me/930000000000" target="_blank" class="icon whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <div class="contact-info">
+            <div class="label">WhatsApp</div>
+            <div class="info">+93 00 000 0000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ============= MAIN HEADER ================== -->
+  <header class="main-header">
+    <nav class="navbar">
+      <!-- Mobile menu toggle -->
+      <div class="menu-toggle" id="menu-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+             <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="pakages.html">Our Packages</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="prices.html">Prices</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </nav>
+  </header>
+
+
+<!--============= Hero Fade Slider ===================== -->
+<div class="swiper heroSwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="img/slider/s-2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/slider/s-3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/slider/s-4.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/slider/s-5.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/slider/s-6.jpg" alt=""></div>
+  </div>
+</div>
+
+
+<!-- Back To Top Button with Circular Progress -->
+<button id="backToTop">
+  <svg width="60" height="60">
+    <circle cx="30" cy="30" r="28" stroke="#fff" stroke-width="4" fill="none" />
+    <circle id="progressCircle" cx="30" cy="30" r="28" stroke="#085772" stroke-width="4" fill="none" stroke-linecap="round" />
+  </svg>
+  <span id="scrollPercent">0%</span>
+</button>
+
+
+
+<!--============== PACKAGES SECTION============== -->
+<section class="packages">
+  <!-- Swiper wrapper -->
+  <div class="swiper packagesSwiper">
+    <div class="swiper-wrapper">
+      
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="package-card fade-in">
+          <div class="image-box">
+            <img src="img/packages/bamyan.jpeg" alt="Package Image">
+            <span class="price">$3400</span>
+            <a href="#" class="details-link">View Details</a>
+          </div>
+          <p class="package-title">
+            14 days packages: <br> Bamyan, Kabul, Jalalabad, Nuristan 3,400usd
+          </p>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="package-card fade-in">
+          <div class="image-box">
+            <img src="img/packages/mazar.jpeg" alt="Package Image">
+            <span class="price">$2800</span>
+            <a href="#" class="details-link">View Details</a>
+          </div>
+          <p class="package-title">
+            8 days packages: <br> Mazar Sharif, Kabul, Laghman, Bamyan 2800usd
+          </p>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="package-card fade-in">
+          <div class="image-box">
+            <img src="img/packages/kandahar.jpeg" alt="Package Image">
+            <span class="price">$3,300</span>
+            <a href="#" class="details-link">View Details</a>
+          </div>
+          <p class="package-title">
+            15 days packages: <br> Kandahar, Kabul, Nimroz, Herat 3,300 usd
+          </p>
+        </div>
+      </div>
+
+
+       <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="package-card fade-in">
+          <div class="image-box">
+            <img src="img/packages/herat.jpg" alt="Package Image">
+            <span class="price">$3,300</span>
+            <a href="#" class="details-link">View Details</a>
+          </div>
+          <p class="package-title">
+            15 days packages: <br> Kandahar, Kabul, Nimroz, Herat 3,300 usd
+          </p>
+        </div>
+      </div>
+
+
+       <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="package-card fade-in">
+          <div class="image-box">
+            <img src="img/packages/kabul-1.jpg" alt="Package Image">
+            <span class="price">$3,300</span>
+            <a href="#" class="details-link">View Details</a>
+          </div>
+          <p class="package-title">
+            15 days packages: <br> Kandahar, Kabul, Nimroz, Herat 3,300 usd
+          </p>
+        </div>
+      </div>
+
+
+       <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="package-card fade-in">
+          <div class="image-box">
+            <img src="img/packages/kabul.jpg" alt="Package Image">
+            <span class="price">$3,300</span>
+            <a href="#" class="details-link">View Details</a>
+          </div>
+          <p class="package-title">
+            15 days packages: <br> Kandahar, Kabul, Nimroz, Herat 3,300 usd
+          </p>
+        </div>
+      </div>
+
+      <!-- (You can add more slides here) -->
+
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+
+<!-- ================ ABOUT CARAVAN ================= -->
+<section id="about" class="carvana">
+  <div class="container">
+    <!-- First Row: Title and Paragraph -->
+    <div class="row about-row">
+      <!-- Left Column -->
+      <div class="col left-col">
+        <h3>Explore Afghanistan’s most captivating locations:</h3>
+        <h1 class="main-title">Top Destinations</h1>
+        <div class="underline"></div>
+        <img src="img/packages/bamyan.jpeg" alt="Top Destinations" class="about-image">
+      </div>
+      <!-- Right Column -->
+      <div class="col right-col">
+        <p class="about-text">
+          Experience the beauty, culture, and history of Afghanistan with Caravan Afghanistan Travel and Tour. 
+          From breathtaking mountains to ancient cities, we provide safe, comfortable, and unforgettable travel experiences.
+        </p>
+        <h1 class="sub-title">
+          About <span>Caravan</span> Guides & Tour Services
+        </h1>
+        <p class="about-text">
+          Caravan Afghanistan Travel and Tour is a registered travel agency under the Afghan Tour Organization, Ministry of Information and Culture. 
+          Based in Kabul, we specialize in offering exceptional travel experiences with a deep focus on Afghanistan’s historical, cultural, and natural treasures.
+        </p>
+
+        <!-- Icon-Text Section -->
+        <div class="icon-text-section">
+          <div class="row">
+            <div class="col icon-col">
+              <i class="fas fa-leaf"></i>
+              <span>Eco Friendly</span>
+            </div>
+            <div class="col icon-col">
+              <i class="fas fa-heart"></i>
+              <span>Done With Love</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col icon-col">
+              <i class="fas fa-star"></i>
+              <span>High Quality Services</span>
+            </div>
+            <div class="col icon-col">
+              <i class="fas fa-money-bill-wave"></i>
+              <span>Low Cost</span>
+            </div>
+          </div>
+        </div>
+
+        <a href="#more" class="about-btn">More About Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!--============== Main Services SECTION============== -->
+<section class="services-section" id="services">
+    <div class="services-container">
+
+        <div class="services-header fade-in-top">
+            <h2>Our Travel Services</h2>
+            <p>We provide complete travel solutions to ensure a safe, comfortable, and memorable journey across Afghanistan.</p>
+        </div>
+
+        <div class="services-grid">
+
+            <!-- Service 1 -->
+            <div class="service-card fade-in-top">
+                <div class="service-icon"><i class="fa-solid fa-plane-departure"></i></div>
+                <h3>Flight Booking</h3>
+                <p>Domestic and international flight booking with trusted airline partners and competitive prices.</p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card fade-in-top">
+                <div class="service-icon"><i class="fa-solid fa-hotel"></i></div>
+                <h3>Hotel Reservation</h3>
+                <p>Safe and comfortable hotels based on your budget — verified and quality accommodations.</p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card fade-in-top">
+                <div class="service-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                <h3>Tour Packages</h3>
+                <p>Explore Afghanistan with guided cultural, adventure, and historical tour packages.</p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card fade-in-top">
+                <div class="service-icon"><i class="fa-solid fa-passport"></i></div>
+                <h3>Visa Assistance</h3>
+                <p>Complete support for travel documents, permissions, and visa processing assistance.</p>
+            </div>
+
+            <!-- Service 5 -->
+            <div class="service-card fade-in-top">
+                <div class="service-icon"><i class="fa-solid fa-car-side"></i></div>
+                <h3>Transportation</h3>
+                <p>Private cars, SUVs, and vans with professional drivers for safe internal travel.</p>
+            </div>
+
+            <!-- Service 6 -->
+            <div class="service-card fade-in-top">
+                <div class="service-icon"><i class="fa-solid fa-user-tie"></i></div>
+                <h3>Local Tour Guide</h3>
+                <p>Experienced English-speaking guides to introduce you to culture, food, and hidden gems.</p>
+            </div>
+
+            <!-- Service 7 -->
+            <div class="service-card fade-in-top">
+                <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
+                <h3>24/7 Support</h3>
+                <p>We are here for you at any time — assistance throughout your journey.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+ <!-- ============= TEAM MEMBER ================= -->
+<section class="team-section">
+  <div class="team-intro row">
+    <div class="team-left">
+      <h2>An Award-Winning</h2>
+      <h1>Experience Team</h1>
+    </div>
+    <div class="team-right">
+      <p>Our experienced team works with you to design a landscape <br> that suits your vision.</p>
+    </div>
+  </div>
+
+  <div class="team-members row">
+    <div class="member">
+      <div class="member-img">
+        <img src="img/team/t-4.jpeg" alt="Member 1">
+      </div>
+      <h3>John Doe</h3>
+      <span>Landscape Architect</span>
+    </div>
+    <div class="member">
+      <div class="member-img">
+        <img src="img/team/t-3.jpeg" alt="Member 2">
+      </div>
+      <h3>Jane Smith</h3>
+      <span>Garden Designer</span>
+    </div>
+    <div class="member">
+      <div class="member-img">
+        <img src="img/team/t-2.jpeg" alt="Member 3">
+      </div>
+      <h3>Michael Lee</h3>
+      <span>Planner</span>
+    </div>
+    <div class="member">
+      <div class="member-img">
+        <img src="img/team/t-1.jpeg" alt="Member 4">
+      </div>
+      <h3>Emily Clark</h3>
+      <span>Project Manager</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============= CLIENT RESPONSES ================= -->
+<section class="clients-section" style="background-image: url('img/slider/s-1.jpg');">
+  <div class="clients-intro">
+    <h2>Response from Our Clients</h2>
+    <p>Hear from travelers who’ve experienced the magic of Afghanistan with Caravan Guides. From seamless planning to unforgettable adventures, discover why our clients trust us to make their journeys extraordinary.</p>
+  </div>
+
+  <div class="clients-slider swiper mySwiper">
+    <div class="swiper-wrapper">
+
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="client-card">
+          <div class="client-img">
+            <img src="img/cus-respon/r-1.jpg" alt="Client 1">
+            <span class="country-badge">Afghanistan</span>
+          </div>
+          <div class="client-content">
+            <h3>Authentic and well-organized Tours!</h3>
+            <p>Caravana Afghanistan provided the most authentic travel experience I could ask for. Their hospitality and deep knowledge of Afghan history make my trip unforgettable. Can't wait to visit again! __ Ahmed K.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="client-card">
+          <div class="client-img">
+            <img src="img/cus-respon/r-2.jpg" alt="Client 2">
+            <span class="country-badge">Iran</span>
+          </div>
+          <div class="client-content">
+            <h3>Authentic and well-organized Tours!</h3>
+            <p>The tour was seamless and well-planned. Every detail was taken care of, and I felt safe throughout. Amazing experience! __ Sara R.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="client-card">
+          <div class="client-img">
+            <img src="img/cus-respon/r-3.jpg" alt="Client 3">
+            <span class="country-badge">Turkey</span>
+          </div>
+          <div class="client-content">
+            <h3>Authentic and well-organized Tours!</h3>
+            <p>Everything was perfect! From local guides to accommodations, Caravana exceeded my expectations. Highly recommend! __ Michael B.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+
+
+
+       <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="client-card">
+          <div class="client-img">
+            <img src="img/cus-respon/r-4.jpg" alt="Client 3">
+            <span class="country-badge">Turkey</span>
+          </div>
+          <div class="client-content">
+            <h3>Authentic and well-organized Tours!</h3>
+            <p>Everything was perfect! From local guides to accommodations, Caravana exceeded my expectations. Highly recommend! __ Michael B.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="client-card">
+          <div class="client-img">
+            <img src="img/cus-respon/r-5.jpg" alt="Client 3">
+            <span class="country-badge">Turkey</span>
+          </div>
+          <div class="client-content">
+            <h3>Authentic and well-organized Tours!</h3>
+            <p>Everything was perfect! From local guides to accommodations, Caravana exceeded my expectations. Highly recommend! __ Michael B.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="client-card">
+          <div class="client-img">
+            <img src="img/cus-respon/r-6.jpg" alt="Client 3">
+            <span class="country-badge">Turkey</span>
+          </div>
+          <div class="client-content">
+            <h3>Authentic and well-organized Tours!</h3>
+            <p>Everything was perfect! From local guides to accommodations, Caravana exceeded my expectations. Highly recommend! __ Michael B.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Swiper Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<!-- ================= Footer Section ================= -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="newsletter">
+      <div class="newsletter-left">
+        <h3>Subscribe To Our Newsletter</h3>
+        <p>Elevate your interest living with our premier journey service.</p>
+      </div>
+      <div class="newsletter-right">
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-middle">
+    <div class="footer-col">
+      <img src="img/logo/site-logo.png" alt="Caravan Afghanistan Logo" class="footer-logo">
+      <p>Caravan Afghanistan is dedicated to showcasing the breathtaking beauty and cultural heritage of Afghanistan.
+        We provide authentic travel experiences that connect visitors with the heart of Afghan traditions.
+        Our mission is to make every journey safe, memorable, and full of discovery.
+        
+      </p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Useful Link</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Our Packages</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Our Services</h4>
+      <ul>
+        <li><a href="#">Touristic Guide</a></li>
+        <li><a href="#">Visa Support</a></li>
+        <li><a href="#">Hotel Booking</a></li>
+        <li><a href="#">Vehicle Rental</a></li>
+        <li><a href="#">Dry Cleaning</a></li>
+        <li><a href="#">Tourist Insurance</a></li>
+        <li><a href="#">Cultural Artifacts</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Get In Touch</h4>
+      <p> Shah Re now, Kabul, AF</p>
+      <p> info@caravanafghanistan.com</p>
+      <p> +93 771 549 152</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© All Rights Reserved 2025 - Developed by "Arif Roohany"</p>
+  </div>
+</footer>
+
+
+    <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+ <script src="app.js"></script>
+</body>
+</html>

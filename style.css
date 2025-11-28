@@ -496,7 +496,7 @@ header a{
 }
 
 .left-col .about-image:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 /* Right Column */
@@ -603,6 +603,13 @@ header a{
   .right-col .sub-title {
     font-size: 30px;
   }
+}
+
+@media screen and (max-width: 414px) {
+  .left-col .about-image {
+  height: 350px;
+}
+  
 }
 
 
